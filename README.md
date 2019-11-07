@@ -3,6 +3,6 @@
 
 ## NOTICE
 + Images of each study note are kept in the `<filename>.assets` folder. 
-+ PDF version of study notes can be found in the `Releases`.
++ PDF version of study notes can be found in the `releases`.
 
 
