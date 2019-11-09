@@ -1,10 +1,12 @@
 **Learn Git 1 - GitHub 学习笔记**
 
-本学期CCT课程要求大家自行学习Git和GitHub的使用方法，通过使用互联网搜索引擎检索，以及与同学们交流学习经验，我发现目前比较流行的Git教程（如[廖雪峰的官方网站 | Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)、[菜鸟教程 | Git教程](https://www.runoob.com/git/git-tutorial.html )、[Think Like (a) Git](http://think-like-a-git.net/)等）多以使用官方的Git SCM或Git for Windows等在Git SCM基础上改进的第三方工具为基础进行讲解，需要使用命令行来进行创建版本库、修改文本、查看状态等操作，上手难度较大，并不是很适合新手快速入门Git（当然，掌握命令行模式下Git的使用方法还是很有必要的，不仅仅是因为使用命令行能够让你 ”Use Git Like a Pro”，更重要的是只有在命令行模式下你才能执行 Git 的 **所有** 命令，大多数的 GUI 软件只实现了 Git 的部分功能以降低操作难度 ）。
+本学期的课程要求大家自行学习Git和GitHub的使用方法，通过使用互联网搜索引擎检索，以及与同学们交流学习经验，我发现目前比较流行的Git教程（如[廖雪峰的官方网站 | Git教程](https://www.liaoxuefeng.com/wiki/896043488029600)、[菜鸟教程 | Git教程](https://www.runoob.com/git/git-tutorial.html )、[Think Like (a) Git](http://think-like-a-git.net/)等）多以使用官方的 Git 命令行工具为基础进行讲解，需要使用命令行指令来进行创建版本库、修改文本、查看状态等操作，上手难度较大，并不是很适合新手快速入门 Git（当然，掌握命令行模式下Git的使用方法还是有必要的，不仅仅是因为使用命令行能够让你 ”Use Git Like a Pro”，更重要的是只有在命令行模式下你才能执行 Git 的 **所有** 命令，大多数的 GUI 软件只实现了 Git 的部分功能以降低操作难度 ）。
 
-此外，上述教程中的不少内容已经有些过时。比如在最新的Git  2.23.0版本中，丢弃工作区修改的推荐命令已经由` git checkout -- file `改为了 `git restore <file>` ，丢弃工作区中的修改命令也从` git reset HEAD <file> `更改为` git restore --staged <file> `，尽管 Git 在保持向后兼容方面表现很好， 大部分旧命令仍然可以在新版本上使用，但也有少部分旧命令在新版本中不太好用 。因此，直接使用新命令、新方法是更加聪明和高效的方式。
+此外，前面提到的 Git 教程中的不少内容已经有些过时。比如在 Git  2.23.0 版本后，丢弃工作区修改的推荐命令已经由` git checkout -- file `改为了 `git restore <file>` ，丢弃工作区中的修改命令也从` git reset HEAD <file> `更改为` git restore --staged <file> `，尽管 Git 在保持向后兼容方面表现很好， 大部分旧命令仍然可以在新版本上使用，但也有少部分旧命令在新版本中不太好用 。因此，直接使用新命令、新方法是更加聪明和高效的方式。
 
-综合考虑上手难度和实用程度，我认为新手可以直接从 GitHub 上手，学习基本的 GitHub Desktop 使用方法之后再深入学习 Git 的命令行用法（实际上使用 GitHub Desktop 即可完成大部分的 Git 操作），这份学习笔记（目前支持Windows和macOS两个平台，Linux 用户只能——话说都用 Linux 的朋友应该也不怎么需要GUI了——嗯……）记录了我学习 Git 的过程和一些小经验，欢迎各位同学交流分享自己的学习和使用经验！
+综合考虑上手难度和实用程度，我认为新手可以直接从 GitHub (Desktop) 上手，学习基本的 GitHub (Desktop) 使用方法之后再深入学习 Git 的命令行用法（实际上使用 GitHub Desktop 即可完成大部分的 Git 操作），这份学习笔记记录了我学习 Git 的过程和一些小经验，欢迎各位同学交流分享自己的学习和使用经验！
+
+P.S. GitHub Desktop 目前仅支持支持Windows和macOS两个平台，Linux 用户可以寻找其他替代产品——话说都用 Linux 的朋友应该也不怎么需要GUI了——嗯……）
 
 ---
 
