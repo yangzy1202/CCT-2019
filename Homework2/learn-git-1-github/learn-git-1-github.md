@@ -36,7 +36,7 @@ P.S. GitHub Desktop 目前仅支持支持Windows和macOS两个平台，Linux 用
 
 ![1571838761367](learn-git-1-github.assets/1571838761367.png)
 
-根据自己的操作系统（目前支持Windows和macOS两个平台）安装相应的GitHub Desktop版本，以下操作均基于GitHub Desktop for Windows (64bit)版（请注意GitHub Desktop无法在32位Windows系统下工作，不过这年头要找到一台32位电脑也是真的不容易……），安装完成后需要登录到 GitHub 帐户，之后是“Configure Git（配置 Git）”步骤，用于设置名称和电子邮件地址。为确保提交正确到你的GitHub 帐户上， 这里需要填写GitHub 帐户关联的电子邮件地址（但如果你希望将你的邮箱保密，你可以使用 [GitHub-提供的“no-reply（无需回复）”电子邮件地址](https://help.github.com/articles/about-commit-email-addresses)， 默认为 `@users.noreply.github.com` ）。 
+根据自己的操作系统（目前支持Windows和macOS两个平台）安装相应的GitHub Desktop版本，以下操作均基于GitHub Desktop for Windows (64bit)版（请注意GitHub Desktop无法在32位Windows系统下工作，不过这年头要找到一台32位电脑也是真的不容易……），安装完成后需要登录到 GitHub 帐户，之后是“Configure Git（配置 Git）”步骤，用于设置名称和电子邮件地址。为确保提交正确到你的GitHub 帐户上， 这里需要填写GitHub 帐户关联的电子邮件地址（但如果你希望将你的邮箱保密，你可以使用 GitHub-提供的“no-reply（无需回复）”电子邮件地址， 默认为 `ID+username@users.noreply.github.com` ）。 
 
 ![1571839328108](learn-git-1-github.assets/1571839328108.png)
 
