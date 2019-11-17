@@ -1,7 +1,9 @@
+# l-system_test3
+
 from turtle import * 
 
 length = 10
-angle  = 90
+angle  = 60
 
 def split_path(path):
     i = 0
@@ -30,23 +32,23 @@ def draw_path(path):
         if symbol in ['Fl','Fr']:
             forward(length)
         elif symbol == '-':
-            left(angle)
-        elif symbol == '+':
             right(angle)
+        elif symbol == '+':
+            left(angle)
     
 rules = {
-    'Fl': 'Fl+Fr+',
-    'Fr': '-Fl-Fr'
+    'Fl': 'Fr+Fl+Fr',
+    'Fr': 'Fl-Fr-Fl'
 }
 
-path = 'Fl+Fr+'
+path = 'Fr'
 
-for i in range(10):
+for n in range(6):
     path = apply_rule(path, rules)
 
-setup(800,600)
+setup(1000,800)
 penup()
-goto(-300, 50)
+goto(-300, -200)
 pendown()
 speed(0)
 

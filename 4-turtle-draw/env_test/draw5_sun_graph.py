@@ -1,4 +1,5 @@
-# 画太阳
+# draw5_sun_graph
+
 from turtle import *
 from math import *
 
@@ -13,7 +14,8 @@ def draw_diamond():
         forward(length)
         left(180 - angle)
 
-speed(0) # turtle中的speed()函数可设置海龟移动的速度为 0..10 表示的整型数值。如未指定参数则返回当前速度。
+speed(0) 
+# turtle中的speed()函数可设置海龟移动的速度为 0..10 表示的整型数值。如未指定参数则返回当前速度。
 # 如果输入数值大于 10 或小于 0.5 则速度设为 0。速度字符串与速度值的对应关系如下:
     # "fastest": 0 最快
     # "fast": 10 快
@@ -46,5 +48,5 @@ for i in range(8):
     forward(step)
     left(angle)
 end_fill()
-
+hideturtle()
 done()

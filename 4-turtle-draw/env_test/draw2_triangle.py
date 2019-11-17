@@ -1,4 +1,5 @@
-# 画三角形
+# draw2_triangle
+
 from turtle import *
 for i in range(3):
     forward (100)

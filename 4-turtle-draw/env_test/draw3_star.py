@@ -1,4 +1,5 @@
-# 画五角星
+# draw3_star
+
 from turtle import *
 for i in range(5):
     forward (100)

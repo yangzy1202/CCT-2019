@@ -1,4 +1,5 @@
-# 画正方形
+# draw1_square
+
 from turtle import *
 for i in range(4):
     forward (100)

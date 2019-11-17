@@ -1,4 +1,5 @@
-# Draw a Koch snowflake
+# Draw a Koch curve
+
 import turtle as t
 def koch(size, n):
     if n == 0:
@@ -8,23 +9,15 @@ def koch(size, n):
             t.left(angle)
             koch(size/3, n-1)
 
-t.speed(0)
-
 def main():
-    t.setup(600, 600)
+    t.speed(0)
+    t.setup(800, 400)
     t.penup()
-    t.goto(-200, 100)
+    t.goto(-300, 50)
     t.pendown()
-    t.pensize(3)
-    t.pencolor('red')
-    
-    level = 3
-    for i in range(3):
-        koch(400, level)
-        t.right(120)
-        i += 1
+    t.pensize(2)
+    koch(500, 4)
     t.hideturtle()
     t.done()
 
 main()
-

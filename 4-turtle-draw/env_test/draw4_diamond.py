@@ -1,4 +1,5 @@
-# 画菱形
+# draw4_diamond
+
 from turtle import *
 length = 100
 angle = 360 / 8

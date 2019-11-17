@@ -1,7 +1,9 @@
+# l-system_test2
+
 from turtle import * 
 
 length = 10
-angle  = 60
+angle  = 90
 
 def split_path(path):
     i = 0
@@ -35,21 +37,17 @@ def draw_path(path):
             left(angle)
     
 rules = {
-    'Fl': 'Fr+Fl+Fr',
-    'Fr': 'Fl-Fr-Fl'
+    'Fl': 'Fl+Fr+',
+    'Fr': '-Fl-Fr'
 }
 
-path = 'Fr'
+path = 'Fl'
 
-for n in range(6):
+for i in range(10):
     path = apply_rule(path, rules)
 
 setup(800,600)
-penup()
-goto(-300, -200)
-pendown()
 speed(0)
-
 draw_path(path)
 hideturtle()
 done()
