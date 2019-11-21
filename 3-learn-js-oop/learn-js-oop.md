@@ -1,4 +1,4 @@
-# **JavaScript-OOP 学习笔记**
+# **JavaScript 面向对象编程学习笔记**
 
 
 > **参考资料：**
@@ -6,6 +6,8 @@
 > 1. [JavaScript 教程 | 菜鸟教程](https://www.runoob.com/js/js-tutorial.html)
 > 2. [JavaScript 教程 - W3school](https://www.w3school.com.cn/js/index.asp)
 > 3. [JavaScript教程 - 廖雪峰的官方网站](https://www.liaoxuefeng.com/wiki/1022910821149312)
+
+---
 
 #  1 JavaScript 对象概念
 
