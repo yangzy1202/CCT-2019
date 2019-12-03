@@ -1,6 +1,6 @@
 # Learn Linux Command
 
-尽管之前尝试了使用 VMWare 和 Hyper-V 安装 Linux 虚拟机，但我在学习 Linux 基础命令是使用了 Microsoft Windows 10 上的 WSL (Windows Subsystem For Linux) ，WSL 安装简单，使用方便，与 Windows 之间的交互也十分强大！（特别是由于 WSL 是纯命令行界面，不会有虚拟机在高分辨率屏幕上出现字体过小、模糊等问题）！
+尽管之前尝试了使用 VMWare 和 Hyper-V 安装 Linux 虚拟机，但我在学习 Linux 基础命令时，使用了 Microsoft Windows 10 上的 WSL (Windows Subsystem For Linux) ，WSL 安装简单，使用方便，与 Windows 之间的互操作也十分强大！（特别是由于 WSL 是纯命令行界面，不会有虚拟机在高分辨率屏幕上出现字体过小、模糊等问题）！
 
 > WSL 的官方译名是“适用于 Linux 的 Windows 子系统”，WSL 可让开发人员按原样运行 GNU/Linux 环境 - 包括大多数命令行工具、实用工具和应用程序 - 且不会产生虚拟机开销。
 >
@@ -65,6 +65,8 @@
 
 # Linux 基础命令
 
+> **参考资料：**[Linux 入门教程](https://space.bilibili.com/24014925/channel/detail?cid=12754)
+
 + 打开 Ubuntu 命令行。 
 
 > 命令行也被称为 Bash Shell、终端、控制台、命令行接口 (CLI)，或对于 Windows 更常见的命令提示符，这些术语常常互换使用。
@@ -85,7 +87,7 @@
 
 + `clear`命令：清屏
 
-+ Linux 基本文件操作指令
++ Linux 基本文件操作
 
     1. `pwd`命令：当前工作目录
     2. `cd`命令：切换目录（Linux 中的根目录被称为`root`目录，使用`/`表示）
@@ -120,4 +122,40 @@
 	
 	![image-20191203193513090](learn-linux-command.assets/image-20191203193513090.png)
 	
+	12. `rm`命令：删除文件（注意：Linux 没有“回收站”机制，直接使用`rm`要谨慎）
 	
+	![image-20191203235054582](learn-linux-command.assets/image-20191203235054582.png)
+	
+	13. `mv`命令：移动文件或重命名文件（注意：文件夹名也是大小写敏感的！）
+	
+	![image-20191203235245354](learn-linux-command.assets/image-20191203235245354.png)
+	
+	![image-20191203235752567](learn-linux-command.assets/image-20191203235752567.png)
+	
+	14. `less`命令：浏览文件（可移动光标），点击字母`q`退出
+	
+	![image-20191204000413207](learn-linux-command.assets/image-20191204000413207.png)
+	
+	![image-20191204000444756](learn-linux-command.assets/image-20191204000444756.png)
+	
+	15. `chmod`命令：修改文件读写权限
+	
+	![image-20191204001121902](learn-linux-command.assets/image-20191204001121902.png)
+	
+	![image-20191204002758223](learn-linux-command.assets/image-20191204002758223.png)
+	
+	![image-20191204002858313](learn-linux-command.assets/image-20191204002858313.png)
+	
+	![image-20191204003109173](learn-linux-command.assets/image-20191204003109173.png)
+	
+	+ `chmod`也可以通过二进制数（转十进制）进行操作
+	
+	![image-20191204003409440](learn-linux-command.assets/image-20191204003409440.png)
+	
+	![image-20191204003444717](learn-linux-command.assets/image-20191204003444717.png)
+	
+	![image-20191204003906107](learn-linux-command.assets/image-20191204003906107.png)
+	
+	16. `grep`命令：对文本文件进行搜索（正则表达式）
+	
+	![image-20191204004735364](learn-linux-command.assets/image-20191204004735364.png)
