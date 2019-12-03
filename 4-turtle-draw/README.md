@@ -191,7 +191,7 @@ main()
 ![image-20191117171656857](README.assets/image-20191117171656857.png)
 
 ```python
-# lsystem_test1
+# lsystem_1
 
 from turtle import * 
 
@@ -226,7 +226,7 @@ done()
 ![image-20191117170417368](README.assets/image-20191117170417368.png)
 
 ```python
-# l-system_test2
+# l-system_2
 
 from turtle import * 
 
@@ -283,7 +283,7 @@ done()
 ![image-20191117171057138](README.assets/image-20191117171057138.png)
 
 ```python
-# l-system_test3
+# l-system_3
 
 from turtle import * 
 
