@@ -2,9 +2,13 @@
 
 在入门 GitHub (Desktop) 的基本操作以及掌握 Markdown 基础语法后，我们已经能够做一些简单的的版本控制的相关工作了，但在具体的项目事件中，使用命令行进行 Git 操作是更多专业程序员更为青睐的使用方式，不仅仅是因为程序员（媛）们偏爱那个“黑黑”的窗口，还是因为只有通过命令行才能完全发挥 Git 的全部功能。
 
-> + **主要参考了**[廖雪峰老师的 Git 教程](https://www.liaoxuefeng.com/wiki/896043488029600)，主要在 **VS Code** 的终端界面里调用 **Git Bash** 以完成 **Git** 操作。
+> + **主要参考了**[廖雪峰老师的 Git 教程](https://www.liaoxuefeng.com/wiki/896043488029600)，
+> 
+> + 在 **VS Code** 的终端界面里调用 **Git Bash** 以完成 **Git** 操作。
+> 
 > + **其他资源：**<https://github.com/justjavac/free-programming-books-zh_CN#版本控制)>
->   ![img](learn-git-3-git-bash.assets/VCS_References_.png) 
+> 
+> ![img](learn-git-3-git-bash.assets/VCS_References_.png) 
 
 ---
 
