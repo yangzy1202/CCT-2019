@@ -140,6 +140,10 @@
 	
 	15. `chmod`命令：修改文件读写权限
 	
+	+ `chmod`命令分为三部分：u作者，g小组成员，o其他成员；
+	+ 每一部分里面都有：r读，w写，x运行三个部分；
+	+ 如果想修改权限的话 chmod u-r 文件名称 代表修改了作者的权限，不能够读。如果想添加权限 chmod u+r 文件名称 代表允许可读权限。如果使用 chmod g-r 文件名称 代表小组成员和其他人都不能读。
+	
 	![image-20191204001121902](learn-linux-command.assets/image-20191204001121902.png)
 	
 	![image-20191204002758223](learn-linux-command.assets/image-20191204002758223.png)
@@ -156,13 +160,15 @@
 	
 	![image-20191204003906107](learn-linux-command.assets/image-20191204003906107.png)
 	
-	16. `grep`命令：对文本文件进行搜索（正则表达式）
+	16. `grep`命令：对文本文件进行搜索
+	    + `grep`命令可以对文本文件的内容进行搜索，使用正则表达式，能够更好的查找想要的内容，还可以使用命令组合来实现更好的定位。
 	
 	![image-20191204004735364](learn-linux-command.assets/image-20191204004735364.png)
 
 ---
 
 ## 小结1
+
 > + 引自：https://blog.csdn.net/Desdemonali/article/details/99086515
 >
 > 1. 输入 date 来查看当前的时间和日期，输入 cal（calendar）来查看的本月的日历，使用cal+年 查看某一年的总日历，使用 cal 月 年 来查看具体某年某月的日历。
