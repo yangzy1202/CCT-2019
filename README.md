@@ -4,7 +4,9 @@
 
 ## NOTICE
 
- Images of each file are kept in the `<filename>.assets` folder. 
+ Images of each markdown file are kept in the folder `<filename>.assets` . 
+
+
 
 
 
